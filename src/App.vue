@@ -1,3 +1,7 @@
 <template>
-  <h1>Hello, world!</h1>
+  <div class="wrapper">
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+</div>
 </template>

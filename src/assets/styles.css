@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 100vh;
+}
+
+nav {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  background-color: pink;
+}
+
+main {
+  grid-column: 4 / 10;
+  grid-row: 2 / 12;
+  background-color: blue;
+}
+
+footer {
+  grid-column: 1 / -1;
+  grid-row: 12 / 13;
+  background-color: green;
+}
