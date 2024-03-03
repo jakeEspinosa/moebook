@@ -1,6 +1,13 @@
+:root {
+  --main-header-color: #1877f2;
+  --main-bg-color: #dadada;
+  --secondary-bg-color: #FFFFFF;
+  --divider: #a7a7a7;
+}
+
 body {
   font-family: system-ui, sans-serif;
-  --main-header-color: #1877f2;
+  background-color: var(--main-bg-color);
 }
 
 .wrapper {
@@ -8,6 +15,15 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   height: 100vh;
+}
+
+nav, footer {
+  background-color: var(--secondary-bg-color);
+}
+
+hr {
+  color: var(--divider);
+  filter: blur(3px);
 }
 
 /* Mobile, default */
@@ -19,12 +35,10 @@ body {
   main {
     grid-column: 2 / 12;
     grid-row: 2 / 12;
-    background-color: blue;
   }
   footer {
     grid-column: 1 / -1;
     grid-row: 12 / 13;
-    background-color: green;
   }
   .desktop {
     display: none;
@@ -40,12 +54,10 @@ body {
   main {
     grid-column: 3 / 11;
     grid-row: 2 / 12;
-    background-color: blue;
   }
   footer {
     grid-column: 1 / -1;
     grid-row: 12 / 13;
-    background-color: green;
   }
   .desktop {
     display: none;
@@ -61,12 +73,10 @@ body {
   main {
     grid-column: 4 / 10;
     grid-row: 2 / 12;
-    background-color: blue;
   }
   footer {
     grid-column: 1 / -1;
     grid-row: 12 / 13;
-    background-color: green;
   }
   .mobile {
     display: none;
