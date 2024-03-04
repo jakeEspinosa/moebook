@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import MobileHeader from "@/components/header/MobileHeader.vue";
-  import DesktopHeader from "@/components/header/DesktopHeader.vue";
+import MobileHeader from "@/components/header/MobileHeader.vue";
+import DesktopHeader from "@/components/header/DesktopHeader.vue";
 </script>
 
 <template>
@@ -10,5 +10,5 @@
     <main>main</main>
     <footer class="mobile">mobile-footer</footer>
     <footer class="desktop">desktop-footer</footer>
-</div>
+  </div>
 </template>

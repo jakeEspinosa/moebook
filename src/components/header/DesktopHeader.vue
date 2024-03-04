@@ -14,20 +14,19 @@
     </div>
   </nav>
 </template>
-  
+
 <style scoped>
-  h1 {
-    color: var(--main-header-color);
-    padding-left: 1em;
-  }
-  .flex-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  .space-between {
-    justify-content: space-between;
-    flex: 1;
-  }
+h1 {
+  color: var(--main-header-color);
+  padding-left: 1em;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.space-between {
+  justify-content: space-between;
+  flex: 1;
+}
 </style>
-  

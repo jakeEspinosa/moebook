@@ -6,8 +6,8 @@
 </template>
 
 <style scoped>
-  h1 {
-    color: var(--main-header-color);
-    padding-left: 1em;
-  }
+h1 {
+  color: var(--main-header-color);
+  padding-left: 1em;
+}
 </style>

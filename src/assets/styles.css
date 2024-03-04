@@ -1,7 +1,7 @@
 :root {
   --main-header-color: #1877f2;
   --main-bg-color: #dadada;
-  --secondary-bg-color: #FFFFFF;
+  --secondary-bg-color: #ffffff;
   --divider: #a7a7a7;
 }
 
@@ -17,7 +17,8 @@ body {
   height: 100vh;
 }
 
-nav, footer {
+nav,
+footer {
   background-color: var(--secondary-bg-color);
 }
 
